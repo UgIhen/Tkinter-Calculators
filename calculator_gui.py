@@ -28,7 +28,7 @@ def clear():
 
 button_C = tkinter.Button(window, text="C", width=5, padx=20, pady=10, command= lambda: clear())
 button_C.grid(row=1, column=0)
-button_percent = tkinter.Button(window, text="%", width=5, padx=20, pady=10, command= lambda: show("%"))
+button_percent = tkinter.Button(window, text="%", width=5, padx=20, pady=10, command= lambda: show("/100"))
 button_percent.grid(row=1, column=1)
 button_bracket_open = tkinter.Button(window, text="(", width=5, padx=20, pady=10, command= lambda: show("("))
 button_bracket_open.grid(row=1, column=2)
